@@ -1,0 +1,9 @@
+----------Anotações-------------
+
+clear - limpa o console
+crtl+L - limpao console
+------------------------------
+new-item index.html - powertshell
+touch index.html - Git-Bash
+-------------------------
+git --version - mostra a versão do git instalado no pc

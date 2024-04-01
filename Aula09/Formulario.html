@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+            <meta charset="UTF-8">
+                <meta name="viewport" content="width=[device-width], initial-scale=1.0">
+                    <title>Formulario</title>
+</head> 
+        
+<body>
+<fieldset>
+                            <h1>Informaçao do Aluno:</h1>
+    <form action="#">
+    <!-- input - entrada de informação do usuario -->
+                    <label for="Cx1">Nome:</label>
+                        <input type="text"id="Cx1" required>
+        <br><br>
+                    <label for="email">E-mail</label>
+                        <input type="text"id="email" required>
+        <br><br>
+
+                    <label for="idade">Idade</label> 
+                        <input type="text"size=5 id="idade" required>
+
+                    <label for="cep">CEP</label>
+                        <input type="text" size="8" placeholder="Ex 01647-296" required>
+        <br><br>
+                    <label for="senha">Senha</label> 
+                        <input type="password" name="senha" id="senha" required>
+                    </fieldset>
+        <br>
+<fieldset>
+                                <h2>Cursos:</h2>  
+                    <input type="radio"name="tipo" id="Suporte Ti"value="Z">
+                        <label for="Suporte Ti">Suporte Ti</label>
+        <br>
+                    <input type="radio" name="tipo" id="Microsoft"value="X">
+                        <label for="Microsoft">Microsoft</label>
+        <br>
+                    <input type="radio" name="tipo" id="Zendesk"value="C">
+                        <label for="Zendesk">Zendesk</label>
+
+                                <h2>Horários:</h2>
+
+                    <input type="checkbox" name="periodo" id="h1">
+                        <label for="h1">08h.00 - 10h.00</label>
+        <br>
+                    <input type="checkbox" name="periodo" id="h2">
+                        <label for="h2">10h.00 - 12h.00</label>
+        <br>
+                    <input type="checkbox" name="periodo" id="h3">
+                        <label for="h3">13h.00 - 15h.00</label>
+        <br>
+                    <input type="checkbox" name="periodo" id="h4">
+                        <label for="h4">15h.00 - 17h.00</label>
+</fieldset>
+        <br>
+<fieldset>
+        <label for="Unidades">Selecione sua Unidade:</label>   
+            <select name="Unidades" id="listaUnidades"required>
+                <option value="op1" Sected hidden>Unidades</option>
+                <option value="Santana">Santana</option>   
+                <option value="Diadema">Diadema</option>
+                <option value="Itaquera">Itaquera</option>  
+                <option value="Santo Amaral">Santo Amaral</option>
+        </select><br/><br>
+
+        <label for="cCid">Escolha a sua Cidade na lista:</label>   
+                     <input list="cidade" name="tCid" id="cCid" placeholder="Sua Cidade" />   
+        <datalist id="cidade">
+                <option value="São Paulo"></option>
+                <option value="Campinas"></option>
+                <option value="Santo_Andre"></option>
+                <option value="Juquitiba"></option>
+        </datalist><br>
+    <legend>Exemplo range e output:</legend>0
+        <input type="range" id="valor_01" name="valor_01" />100
+            <br><br>
+        <textarea name= "message" rows="10" cols="50" placeholder=" Deixe aqui a sua mensagem! "required></textarea> 
+            <br>  
+        <input type="submit" value="Enviar"/></fieldset> 
+            <footer>
+                    <small>Instituto da Oportunidade Social &reg;</small>
+            </footer>
+                 
+    </form>
+</body>
+</html>
